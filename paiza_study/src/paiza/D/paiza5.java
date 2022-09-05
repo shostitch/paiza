@@ -9,7 +9,7 @@ public class paiza5 {
 		int nums[] = new int[num];
 		for(int i = 0; i < nums.length; i ++) {
 			int number = sc.nextInt();
-			
+
 			if(number == 0) {
 				System.out.println("NO");
 				sc.close();
