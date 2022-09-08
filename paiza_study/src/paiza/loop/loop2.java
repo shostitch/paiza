@@ -1,4 +1,4 @@
-package paiza.D;
+package paiza.loop;
 
 import java.util.Scanner;
 
