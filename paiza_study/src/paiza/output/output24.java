@@ -12,5 +12,6 @@ public class output24 {
         // next は空白までの取得！
         // nextLine は改行まで空白も受け取る！！！！
         System.out.println(s.replace(", maybe.","!!"));
+        sc.close();
     }
 }
