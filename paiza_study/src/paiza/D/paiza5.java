@@ -14,6 +14,7 @@ public class paiza5 {
 				System.out.println("NO");
 				sc.close();
 				return;
+				// break などだと処理が止まらずYESも出力される
 			}
 		}
 		System.out.println("YES");
