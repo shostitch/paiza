@@ -12,7 +12,8 @@ public class paiza20 {
 			nums[i] = sc.nextInt();
 		}
 		sc.close();
-		while(nums[0] <= nums[1]) {
+		while(nums[0] < nums[1]) {
+			// ここで＝をつけると16 <= 16 になりもう一度処理が行われてしまい割り切れた時（2）一つカウントが増える
 			nums[0] *= 2;
 			count ++;
 		}
