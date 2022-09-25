@@ -6,5 +6,9 @@ public class No2 {
         for(int i =0; i < nums.length; i ++){
             System.out.println(nums[i]);
         }
+        for(int x : nums){
+        	//こっちのがJavaっぽい！！！！！
+            System.out.println(x);
+        }
     }
 }
